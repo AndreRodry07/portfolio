@@ -1,6 +1,6 @@
-import styled, { css, keyframes } from "styled-components";
-import background from "../../assets/background/background.gif";
-import { maxWidths } from "../../components/MaxWidths/maxWidths";
+import styled, { css, keyframes } from "styled-components"
+import background from "../../assets/background/background.gif"
+import { maxWidths } from "../../components/MaxWidths/maxWidths"
 
 const pulseAnimation = keyframes`
   0% {
@@ -15,17 +15,17 @@ const pulseAnimation = keyframes`
 `;
 
 export const BtnPulsating = styled.button`
-    position: relative;
-    padding: 2px 12px;
-    background: linear-gradient(90deg, rgb(48, 17, 188), rgb(126, 17, 188));
-    color: #fff7fc;
     font-weight: 600;
     font-size: 14px;
+    position: relative;
+    padding: 2px 12px;
+    color: #fff7fc;
     border: none;
     border-radius: 5px;
     outline: none;
     cursor: pointer;
     margin-bottom: 10px;
+    background: linear-gradient(90deg, rgb(48, 17, 188), rgb(126, 17, 188));
     animation: ${pulseAnimation} 0.9s infinite alternate;
 `;
 
@@ -183,14 +183,15 @@ export const Tecnologias = styled.ul`
     }
 
     li {
-        background: rgb(126, 139, 182);
+        font-weight: 600;
         border-radius: 0.5rem;
         margin-bottom: 1rem;
+        text-transform: capitalize;
         cursor: pointer;
         padding: 0.5rem 1rem;
-        font-weight: 600;
         font-size: clamp(2px, 4vw, 20px);
-        text-transform: capitalize;
+        background: rgb(126, 139, 182);
+
         color: rgb(255, 255, 255);
 
         @media (min-width: 340px) {
@@ -208,16 +209,16 @@ export const BtnCards = styled.div`
     gap: 20px;
 
     .primary-button {
-        background: rgb(0, 89, 247);
+        cursor: pointer;
+        line-height: 1.5rem;
+        padding: 0.1rem 1rem;
+        font-weight: 600;
+        font-size: clamp(2px, 4vw, 20px);
+        text-transform: capitalize;
         border: none;
         border-radius: 0.5rem;
         color: rgb(245, 245, 245);
-        font-weight: 600;
-        cursor: pointer;
-        font-size: clamp(2px, 4vw, 20px);
-        text-transform: capitalize;
-        line-height: 1.5rem;
-        padding: 0.1rem 1rem;
+        background: rgb(0, 89, 247);
 
         @media (min-width: 340px) {
             font-size: clamp(2px, 4vw, 12px);
@@ -238,14 +239,15 @@ export const BtnCards = styled.div`
     .secondary-button {
         line-height: 1.5rem;
         padding: 0.1rem 1rem;
+        border-radius: 0.5rem;
+        text-transform: capitalize;
+        font-size: clamp(2px, 4vw, 20px);
         font-weight: 600;
         cursor: pointer;
+        color: rgb(31, 31, 31);
         background: rgb(245, 245, 245);
         border: 1px solid rgb(31, 31, 31);
-        font-size: clamp(2px, 4vw, 20px);
-        border-radius: 0.5rem;
-        color: rgb(31, 31, 31);
-        text-transform: capitalize;
+
         @media (min-width: 340px) {
             font-size: clamp(2px, 4vw, 12px);
             padding: 0.2rem 1.3rem;
