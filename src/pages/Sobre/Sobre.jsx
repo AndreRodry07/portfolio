@@ -7,9 +7,7 @@ export default function Sobre() {
   return (
     <S.Main>
       <section>
-        <S.Title>
-          <h2>sobre</h2>
-        </S.Title>
+        <S.Title>sobre</S.Title>
         
         <S.Container>
           <figure>
