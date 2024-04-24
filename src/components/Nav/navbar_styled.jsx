@@ -34,7 +34,6 @@ export const BoxMenu = styled.div`
         bottom: 0;
         width: 100%;
         max-height: 100vh;
-        /* padding: 20px; */
         opacity: 10;
         z-index: 4;
         overflow-x: hidden;
