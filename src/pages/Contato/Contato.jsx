@@ -7,9 +7,7 @@ export default function Contato() {
     
     <S.Main>
 
-<S.Title>
-        <h2>contato</h2>
-      </S.Title>
+        <S.Title>contato</S.Title>
       
     <S.MySection>
 
