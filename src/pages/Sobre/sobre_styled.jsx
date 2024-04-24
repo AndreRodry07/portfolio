@@ -23,7 +23,7 @@ export const Title = styled.h2`
   height: 100px;
   font-weight: 900;
   color: #F6F5F2;
-  font-size: 2.3rem;
+  font-size: 2rem;
   text-transform: capitalize;
   background-image: url(${SobreBack});
   background-position: 40% 10%;
