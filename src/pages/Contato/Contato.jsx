@@ -10,7 +10,7 @@ export default function Contato() {
         <S.Form
           action="mailto:andrelopesr2018@gmail.com"
           method="post"
-          encType="text/plain" // Corrigido para encType
+          encType="text/plain"
         >
           <label htmlFor="name"></label>
           <input
