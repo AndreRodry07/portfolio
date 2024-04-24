@@ -1,7 +1,7 @@
-import styled, { css } from "styled-components";
-import gifBack from "../../assets/background/gifBack.gif";
-import backEmail from "../../assets/background/backEmail.png";
-import { maxWidths } from "../../components/MaxWidths/maxWidths";
+import styled, { css } from "styled-components"
+import gifBack from "../../assets/background/gifBack.gif"
+import backEmail from "../../assets/background/backEmail.png"
+import { maxWidths } from "../../components/MaxWidths/maxWidths"
 
 const center = css`
     display: flex;
