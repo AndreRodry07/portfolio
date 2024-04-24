@@ -17,16 +17,18 @@ export const Main = styled.main`
  `
 
 
-export const Title = styled.h2`
+export const Title = styled.div`
   ${center}
-  width: 100%;
   height: 100px;
-  font-weight: 900;
-  color: #F6F5F2;
-  font-size: 2rem;
-  text-transform: capitalize;
   background-image: url(${SobreBack});
   background-position: 40% 10%;
+
+  h2 {
+    font-size: 2rem;
+    color: #F6F5F2;
+    font-weight: 900;
+    text-transform: capitalize;
+  }
 `
 
 export const Container = styled.div`

@@ -5,7 +5,9 @@ import { FaWhatsapp } from "react-icons/fa"
 export default function Contato() {
   return (
     <S.Main>
-      <S.Title>Contato</S.Title>
+      <S.Title>
+        <h2>Contato</h2>
+      </S.Title>
       <S.MySection>
         <S.Form
           action="mailto:andrelopesr2018@gmail.com"
