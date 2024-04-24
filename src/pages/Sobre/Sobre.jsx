@@ -14,14 +14,14 @@ export default function Sobre() {
     
     <S.Container>
       <figure>
-        <img src={andre} alt="Descrição da imagem 1" />
+        <img src={andre} alt="" />
       </figure>
       
       <S.Journey>
         <S.Profile>
           <h3>André Rodrigues</h3>
-          <img src={seta1} alt="Descrição da imagem 2" className="seta1"/>
-          <img src={seta2} alt="Descrição da imagem 3" className="seta2"/>
+          <img src={seta1} alt="" className="seta1"/>
+          <img src={seta2} alt="" className="seta2"/>
         </S.Profile>
         
         <p>

@@ -34,7 +34,7 @@ export const Container = styled.div`
     width: 100%;
     height: auto;
     padding-inline: 20px;
-    padding-block: 70px;
+    padding-block: 40px;
     flex-direction: column;
     /* border: 4px solid #80B3FF; */
 
