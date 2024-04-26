@@ -1,6 +1,6 @@
 import { Carousel } from 'react-responsive-carousel'
 import * as S from "./projetos_styled"
-import projeto1 from "../../assets/projetos/projeto1.gif"
+import McDonald from "../../assets/projetos/McDonald.gif"
 import reyNegro from "../../assets/projetos/reyNegro.gif"
 import selfCare from "../../assets/projetos/selfCare.gif"
 import 'react-responsive-carousel/lib/styles/carousel.min.css'
@@ -8,7 +8,7 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css'
 export default function Projetos() {
   const cardsProjetos = [
     {
-      imagem: projeto1,
+      imagem: McDonald,
       titulo: "projeto 1",
       descricao: "Projeto criado criado com o intuito de mostrar meus conhecimentos e projetos práticos. Ele é totalmente responsivo podendo ser acessado por um celular ou tablet. Foi criado utilizando as seguintes tecnologias:",
       altTexto: "",
