@@ -119,6 +119,7 @@ export const DetailsCards = styled.div`
     }
 
     h3 {
+        text-transform: capitalize;
         font-size: clamp(2px, 8vw, 25px);
         padding-block: 12px;
         color: #f6f5f2;

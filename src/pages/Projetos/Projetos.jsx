@@ -3,36 +3,46 @@ import * as S from "./projetos_styled"
 import McDonald from "../../assets/projetos/McDonald.gif"
 import reyNegro from "../../assets/projetos/reyNegro.gif"
 import selfCare from "../../assets/projetos/selfCare.gif"
+import noRitmoDaBatida from "../../assets/projetos/noRitmoDaBatida.gif"
 import 'react-responsive-carousel/lib/styles/carousel.min.css'
 
 export default function Projetos() {
   const cardsProjetos = [
     {
       imagem: McDonald,
-      titulo: "projeto 1",
-      descricao: "Projeto criado criado com o intuito de mostrar meus conhecimentos e projetos práticos. Ele é totalmente responsivo podendo ser acessado por um celular ou tablet. Foi criado utilizando as seguintes tecnologias:",
+      titulo: "McDonald's",
+      descricao: "Projeto inspirado no site do McDonald's, criado com o intuito de demonstrar meus conhecimentos. Ele é totalmente responsivo, podendo ser acessado por tablet ou celular. Foi criado utilizando as seguintes tecnologias:",
       altTexto: "",
       websiteLink: "",
       githubLink: "",
-      tecnologias: ["React", "Styled-components", "Vite", "Git"],
+      tecnologias: ["react", "styled-components", "vite", "git"],
     },
     {
       imagem: reyNegro,
-      titulo: "projeto 2",
-      descricao: "Projeto criado com o intuito de mostrar meus conhecimentos e projetos práticos. Ele é totalmente responsivo podendo ser acessado por um celular ou tablet. Foi criado utilizando as seguintes tecnologias:",
+      titulo: "rey negro",
+      descricao: "E-commerce de café que dispõe de várias seções, como a de categorias de produtos e a de contato, bem como cards que redirecionam para as páginas dos vendedores. O site é totalmente responsivo. Ele foi desenvolvido utilizando as seguintes tecnologias:",
       altTexto: "",
       websiteLink: "",
       githubLink: "",
-      tecnologias: ["React", "Styled-components", "Vite", "Git"],
+      tecnologias: ["react", "css", "vite", "git"],
     },
     {
       imagem: selfCare,
-      titulo: "projeto 3",
-      descricao: "Projeto criado com o intuito de mostrar meus conhecimentos e projetos práticos. Ele é totalmente responsivo podendo ser acessado por um celular ou tablet. Foi criado utilizando as seguintes tecnologias:",
+      titulo: "self care",
+      descricao: "Projeto de e-commerce fictício que oferece uma ampla gama de produtos naturais. O site apresenta uma variedade de produtos, cada um acompanhado por sua respectiva descrição, preço e imagem. Essa plataforma foi desenvolvida utilizando tecnologias modernas.",
       altTexto: "",
       websiteLink: "",
       githubLink: "",
-      tecnologias: ["React", "Styled-components", "Vite", "Git"],
+      tecnologias: ["html", "css", "git"],
+    },
+    {
+      imagem: noRitmoDaBatida,
+      titulo: "no ritmo da batida",
+      descricao: "Uma página simples criada para aprimorar meus conhecimentos em HTML e CSS. O projeto foi concebido com um foco no design, utilizando tons de cores envolventes e tratativas estéticas. Foram empregadas as seguintes tecnologias:",
+      altTexto: "",
+      websiteLink: "",
+      githubLink: "",
+      tecnologias: ["html", "css", "git"],
     },
   ];
 
