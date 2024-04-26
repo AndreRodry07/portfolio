@@ -81,11 +81,11 @@ export const BoxLogo = styled.div`
     }
 
     figure {
-        width: 18%;
+        width: 16%;
         transition: ease 0.9s;
 
         @media (min-width: 550px) {
-            width: 12%;
+            width: 10%;
         }
     }
 
